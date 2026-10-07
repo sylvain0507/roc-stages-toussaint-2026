@@ -5,14 +5,14 @@ Application d’inscription aux stages du 19 au 31 octobre 2026. Interface adapt
 ## Fonctionnement
 
 - Choix du groupe et inscription à plusieurs créneaux.
-- Session au seuil de déclenchement dès **4 inscrits**, puis confirmation par le club.
+- Session au seuil de déclenchement dès **5 inscrits**, puis confirmation par le club.
 - Vendredi 23 octobre, 14 h–15 h : session commune Tiny 1, 2 et 3, gratuite.
 - Tarifs du planning : 4 €, don libre, ou 4 € pour Tiny 3 NTP et don libre pour NC. Aucun paiement en ligne.
-- Les Citrons peuvent choisir les créneaux Marteaux marqués d’un astérisque.
+- Groupes proposés : Tiny 1, Tiny 2, Tiny 3, Mégalodons et Pèlerins.
 - Capacités numériques du planning respectées. Les mentions « TOUS » ne définissent pas de plafond.
 - Les nombres du tableau original représentent des capacités, jamais des inscriptions existantes.
 - Espace club privé : noms, e-mails, export CSV et décision par session.
-- Code personnel à 4 chiffres, associé à l’e-mail de contact, pour retrouver une inscription et annuler des créneaux. Les anciens codes longs restent utilisables.
+- Code personnel à 4 chiffres, associé à l’e-mail de contact, pour retrouver une inscription et annuler des créneaux. Les anciens codes longs restent utilisables. Les tentatives de consultation sont limitées côté serveur.
 - Aucun e-mail automatique n’est envoyé.
 
 ## Hébergement
@@ -25,7 +25,7 @@ La clé privée du club est une variable secrète `ADMIN_KEY` sur le service. El
 
 ## Planning
 
-Source : onglet `vac LA TOUSSAINT` du fichier **Stages vacances Toussaint.xlsx**. Le seuil de 5 figurant dans cet onglet est remplacé par 4, conformément à la demande du club. Les dates sont reprises pour 2026. Les groupes du vendredi Tiny sont réunis. Le créneau « Centre Loisirs » est réservé à cette organisation et n’est pas proposé aux adhérents.
+Source : onglet `vac LA TOUSSAINT` du fichier **Stages vacances Toussaint (2).xlsx**. Le seuil de déclenchement est de 5 inscrits, conformément à la demande du club. Les dates sont reprises pour 2026. Les groupes du vendredi Tiny sont réunis. Les autres groupes et le créneau « Centre Loisirs » ne sont pas proposés. Les identifiants des créneaux conservés restent inchangés pour préserver les inscriptions existantes.
 
 Les séances sont comptées par groupe et créneau, sauf la séance commune Tiny. Le club doit contacter les inscrits quand il confirme ou annule une séance.
 
