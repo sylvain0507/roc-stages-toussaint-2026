@@ -12,7 +12,7 @@ Application d’inscription aux stages du 19 au 31 octobre 2026. Interface adapt
 - Capacités numériques du planning respectées. Les mentions « TOUS » ne définissent pas de plafond.
 - Les nombres du tableau original représentent des capacités, jamais des inscriptions existantes.
 - Espace club privé : noms, e-mails, export CSV et décision par session.
-- Code personnel pour retrouver une inscription et annuler des créneaux.
+- Code personnel à 4 chiffres, associé à l’e-mail de contact, pour retrouver une inscription et annuler des créneaux. Les anciens codes longs restent utilisables.
 - Aucun e-mail automatique n’est envoyé.
 
 ## Hébergement
