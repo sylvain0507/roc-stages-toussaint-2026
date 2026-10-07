@@ -42,6 +42,4 @@ npm run build
 
 Les réponses aux erreurs conservent les choix saisis. Les inscriptions multiples sont atomiques. Les exports protègent les cellules contre les formules injectées.
 
-Le dépôt publie directement les fichiers de l’interface à sa racine. **source-complete.zip** contient le projet complet (interface, service et migrations) sans clé privée ni données d’adhérents.
-
-Application : https://sylvain0507.github.io/roc-stages-toussaint-2026/
+Le club peut supprimer une inscription à un créneau depuis sa liste, après confirmation. Les autres créneaux du nageur restent conservés. Les effectifs et le seuil de cinq sont actualisés ; la suppression ne peut pas être annulée.
