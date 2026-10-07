@@ -43,3 +43,5 @@ npm run build
 Les réponses aux erreurs conservent les choix saisis. Les inscriptions multiples sont atomiques. Les exports protègent les cellules contre les formules injectées.
 
 Le club peut supprimer une inscription à un créneau depuis sa liste, après confirmation. Les autres créneaux du nageur restent conservés. Les effectifs et le seuil de cinq sont actualisés ; la suppression ne peut pas être annulée.
+
+Export Excel local avec deux onglets : Totaux par adhérent et Inscriptions. Regroupement par nom normalisé et e-mail (jamais par e-mail seul). Le total prévu exclut les créneaux annulés ou retirés et les dons libres ; le montant confirmé concerne uniquement les sessions confirmées avec au moins cinq inscrits. Les dons libres sont signalés séparément. L’export actualise les inscriptions avant le téléchargement, protège les textes contre les formules injectées et inclut des formules de somme avec valeurs calculées.
